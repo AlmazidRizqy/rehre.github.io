@@ -14,15 +14,16 @@ body{
 .nav-bar{
 	background-color: white;
 	width: 100%;
-	height: 70px;
+	height: 100px;
 	position: fixed;
+	z-index: 999;
 }
 
 .nav-bar ul{
-	margin-top: 20px;
-	margin-right: 50px;
 	font-size: 15px;
-	float: right;
+	width: 100%;
+	margin-top: 10px;
+	text-align: center;
 }
 
 .nav-bar ul li{
@@ -35,10 +36,46 @@ body{
 .nav-bar ul a{
 	text-decoration: none;
 	color: #9E9E9E;
+	font-style: normal;
 }
 
  .nav-bar ul a:hover > li{
 	color: #212121;
 	border-bottom: 2px solid #212121;
 }
+
+#logo h2{
+	margin-top: 15px;
+	width: 100%;
+	text-align: center;
+	font-style: italic;
+}
 /*Nav-bar END*/
+
+
+
+/*Big Picture*/
+.big-picture{
+	background-image: url(../img/big-picture.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-color: #95a5a6; 
+	width: 100%;
+	height: 450px;
+	z-index: 1;
+	filter: grayscale(1);
+	padding-top: 100px;
+	position: relative;
+}
+
+#big-text h1{
+	text-align: center;
+	font-style: italic;
+	color: white;
+	width: 100%;
+	position: relative;
+	top: 150px;
+}
+/*Big Picture END*/
