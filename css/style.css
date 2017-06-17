@@ -130,6 +130,10 @@ body{
 	margin: 0px auto;
 	margin-top: 20px;
 }
+
+.about-me #profil-pic{
+	border-radius: 100px;
+}
 /*about me END*/
 
 
@@ -169,6 +173,42 @@ body{
 	height: 400px;
 	background: white;
 	border-radius: 10px;
+	position: relative;
+}
+
+#projects #item #item-img{
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+#projects #item #title{
+	font-style: normal;
+	position: absolute;
+	top: 150px;
+	left: 0px;
+}
+
+#projects #item #url{
+	position: absolute;
+	bottom: 20px;
+	left: 95px;
+	border: 2px solid black;
+	padding: 5px;
+}
+
+#projects #item #desc{
+	position: absolute;
+	top: 240px;
+	left: 10px;
+}
+
+#projects #item #url a{
+	text-decoration: none;
+	color: black;
+}
+
+#projects #item #url a:hover{
+	text-decoration: underline;
 }
 /*project END*/
 
@@ -188,5 +228,11 @@ body{
 	font-style: italic;
 	width: 100%;
 	margin-top: 20px;
+}
+
+.Contact #kontak ul li{
+	display: inline-block;
+	margin: 5px;
+	margin-top: 70px;
 }
 /*Contact END*/
