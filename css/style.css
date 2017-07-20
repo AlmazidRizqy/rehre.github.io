@@ -236,3 +236,15 @@ body{
 	margin-top: 70px;
 }
 /*Contact END*/
+
+@media only screen and (max-width: 480px){
+	.nav-bar {
+		height: auto;
+	}
+	.nav-bar ul{
+		display: none;
+	}
+	#big-url h3{
+		font-size: 10px;
+	}
+}
